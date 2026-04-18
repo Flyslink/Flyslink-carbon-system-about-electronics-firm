@@ -1,0 +1,104 @@
+{
+  "categories": [
+    {
+      "name": "氧化扩散设备",
+      "icon": "🔥",
+      "equipment": [
+        {
+          "name": "氧化炉",
+          "power": "50-200 kW",
+          "temp_range": "800-1200°C",
+          "gases": ["O2", "N2", "H2"],
+          "description": "高温氧化炉用于硅片表面氧化层生长"
+        },
+        {
+          "name": "扩散炉",
+          "power": "30-150 kW",
+          "temp_range": "900-1250°C",
+          "gases": ["N2", "POCl3", "BBr3"],
+          "description": "用于掺杂扩散工艺"
+        }
+      ]
+    },
+    {
+      "name": "刻蚀设备",
+      "icon": "⚡",
+      "equipment": [
+        {
+          "name": "干法刻蚀机",
+          "power": "20-80 kW",
+          "gases": ["NF3", "SF6", "CF4", "Cl2"],
+          "description": "等离子体刻蚀设备，使用含氟气体"
+        },
+        {
+          "name": "湿法刻蚀槽",
+          "power": "5-20 kW",
+          "chemicals": ["HF", "HNO3", "H2SO4"],
+          "description": "化学溶液刻蚀设备"
+        }
+      ]
+    },
+    {
+      "name": "薄膜沉积设备",
+      "icon": "💎",
+      "equipment": [
+        {
+          "name": "PECVD",
+          "power": "30-100 kW",
+          "gases": ["SiH4", "NH3", "N2O", "NF3"],
+          "description": "等离子体增强化学气相沉积"
+        },
+        {
+          "name": "PVD设备",
+          "power": "50-200 kW",
+          "gases": ["Ar", "N2"],
+          "description": "物理气相沉积设备"
+        }
+      ]
+    },
+    {
+      "name": "光刻设备",
+      "icon": "💡",
+      "equipment": [
+        {
+          "name": "光刻机",
+          "power": "50-150 kW",
+          "description": "核心图形转移设备"
+        },
+        {
+          "name": "涂胶显影机",
+          "power": "10-30 kW",
+          "description": "光刻胶涂布与显影"
+        }
+      ]
+    },
+    {
+      "name": "离子注入设备",
+      "icon": "⚡",
+      "equipment": [
+        {
+          "name": "离子注入机",
+          "power": "100-300 kW",
+          "gases": ["BF3", "AsH3", "PH3"],
+          "description": "精确掺杂设备"
+        }
+      ]
+    },
+    {
+      "name": "封装测试设备",
+      "icon": "📦",
+      "equipment": [
+        {
+          "name": "键合机",
+          "power": "5-20 kW",
+          "description": "芯片与基板连接"
+        },
+        {
+          "name": "测试机",
+          "power": "10-50 kW",
+          "description": "芯片功能测试"
+        }
+      ]
+    }
+  ]
+}

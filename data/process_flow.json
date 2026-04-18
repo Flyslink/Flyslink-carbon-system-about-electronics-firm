@@ -1,0 +1,70 @@
+{
+  "title": "电子设备制造工艺流程",
+  "subtitle": "以半导体制造为例",
+  "stages": [
+    {
+      "id": 1,
+      "name": "硅片制备",
+      "description": "从硅锭切割、研磨、抛光到清洗，制备高纯度硅片",
+      "equipment": ["切割机", "研磨机", "抛光机", "清洗设备"],
+      "energy": ["电力", "纯水", "化学试剂"],
+      "emissions": ["间接排放（电力）"]
+    },
+    {
+      "id": 2,
+      "name": "氧化扩散",
+      "description": "高温氧化、掺杂扩散，形成器件结构",
+      "equipment": ["氧化炉", "扩散炉", "LPCVD"],
+      "energy": ["电力", "天然气", "氧气", "氮气"],
+      "emissions": ["燃烧排放", "间接排放"]
+    },
+    {
+      "id": 3,
+      "name": "光刻工艺",
+      "description": "涂胶、曝光、显影，形成图形转移",
+      "equipment": ["涂胶机", "光刻机", "显影机"],
+      "energy": ["电力", "工艺气体"],
+      "emissions": ["间接排放"]
+    },
+    {
+      "id": 4,
+      "name": "刻蚀工艺",
+      "description": "干法刻蚀、湿法刻蚀，去除多余材料",
+      "equipment": ["干法刻蚀机", "湿法刻蚀槽"],
+      "energy": ["电力", "工艺气体(NF3,SF6,CF4)"],
+      "emissions": ["过程排放", "间接排放"]
+    },
+    {
+      "id": 5,
+      "name": "薄膜沉积",
+      "description": "CVD、PVD沉积各类薄膜层",
+      "equipment": ["PECVD", "LPCVD", "PVD设备"],
+      "energy": ["电力", "工艺气体", "靶材"],
+      "emissions": ["过程排放", "间接排放"]
+    },
+    {
+      "id": 6,
+      "name": "离子注入",
+      "description": "离子注入掺杂，精确控制掺杂浓度",
+      "equipment": ["离子注入机"],
+      "energy": ["电力", "掺杂气体"],
+      "emissions": ["间接排放"]
+    },
+    {
+      "id": 7,
+      "name": "金属化",
+      "description": "沉积金属互连层，形成电路连接",
+      "equipment": ["PVD设备", "电镀设备", "CMP"],
+      "energy": ["电力", "金属靶材", "电镀液"],
+      "emissions": ["间接排放"]
+    },
+    {
+      "id": 8,
+      "name": "封装测试",
+      "description": "芯片封装、功能测试、质量检验",
+      "equipment": ["键合机", "封装设备", "测试机"],
+      "energy": ["电力", "封装材料"],
+      "emissions": ["间接排放"]
+    }
+  ]
+}

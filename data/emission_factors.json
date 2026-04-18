@@ -1,0 +1,27 @@
+{
+  "gwp_values": {
+    "NF3": {"name": "三氟化氮", "gwp": 17900, "unit": "kgCO2eq/kg"},
+    "SF6": {"name": "六氟化硫", "gwp": 25200, "unit": "kgCO2eq/kg"},
+    "CF4": {"name": "四氟化碳", "gwp": 7380, "unit": "kgCO2eq/kg"},
+    "C2F6": {"name": "六氟乙烷", "gwp": 12200, "unit": "kgCO2eq/kg"},
+    "C3F8": {"name": "八氟丙烷", "gwp": 9500, "unit": "kgCO2eq/kg"}
+  },
+  "fuel_factors": {
+    "天然气": {"ncv": 38931, "ef": 2.1622, "unit": "MJ/m³", "density": 0.714},
+    "柴油": {"ncv": 42652, "ef": 2.9251, "unit": "MJ/kg", "density": 0.84},
+    "汽油": {"ncv": 43070, "ef": 2.9251, "unit": "MJ/kg", "density": 0.725},
+    "液化石油气": {"ncv": 50179, "ef": 2.9848, "unit": "MJ/kg", "density": 0.55},
+    "煤油": {"ncv": 43070, "ef": 2.9251, "unit": "MJ/kg", "density": 0.78},
+    "燃料油": {"ncv": 41816, "ef": 3.1705, "unit": "MJ/kg", "density": 0.95}
+  },
+  "grid_emission_factor": {
+    "value": 0.5777,
+    "unit": "tCO2/MWh",
+    "source": "2024年全国电力平均碳足迹因子"
+  },
+  "heat_emission_factor": {
+    "value": 0.11,
+    "unit": "tCO2/GJ",
+    "source": "GB/T 32151.24-2024"
+  }
+}
